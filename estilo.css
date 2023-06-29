@@ -1,0 +1,105 @@
+:root {
+
+    --cor1: #b13dc3;
+    --cor2: #984fba;
+    --cor3: #895296;
+    --cor4: #d397d5;
+    --cor5: #f8cbed;
+
+}
+
+body {
+    background-color: var(--cor5);
+    
+}
+
+header {
+    background-color: var(--cor3);
+    padding: 10px;
+    font-size: xx-large;
+}
+
+titulo {
+    display: flex;
+    background-color: var(--cor2);
+    padding: 2%;    
+    margin: 10px auto 10px auto;
+    width: fit-content;
+
+}
+
+produtos {
+    display: flex;
+    width: 100%;    
+    overflow-x: scroll;    
+    margin-bottom: 50px;    
+    background-color: var(--cor5);
+}
+
+produto {
+    display: flexbox;
+    justify-content: center;
+    border-style: solid;
+    padding: 50px;    
+    margin: 10px;
+    margin-top: 20px;
+    margin-bottom: 40px;  
+  
+}
+
+produto img {    
+    width: 200px;
+    height: 200px;
+}
+
+produto descricao {
+    display: flex;    
+    justify-content: center;
+}
+
+produto preco {
+    display: flex;    
+    justify-content: center;
+    color: rgb(0, 0, 0);
+    font-size: 20px    
+}
+
+
+produto comprar {
+    background-color: var(--cor3);
+    display: flex;    
+    justify-content: center;    
+   
+    padding: 5%;
+    border-radius: 15px;
+}
+
+autora {
+    display: flex;    
+    justify-content: center;
+    text-align: center;
+}
+
+rodaPé {
+    display: flex;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    justify-content: space-between;
+    background-color: var(--cor2);
+    grid-template-columns: 20% 20%;
+    padding: 1%
+}
+
+cabeçalho {
+    background-color: var(--cor4);
+    display: grid;
+    grid-template-columns: 20% 20%;
+    padding: 3%
+}
+
+#icones {
+    height: 20px;
+    margin-right: 10px;
+    width: 20px;
+}
